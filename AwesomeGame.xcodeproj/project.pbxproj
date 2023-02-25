@@ -9,21 +9,59 @@
 /* Begin PBXBuildFile section */
 		0BA40B2029A7530A002094DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B1F29A7530A002094DF /* AppDelegate.swift */; };
 		0BA40B2229A7530A002094DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B2129A7530A002094DF /* SceneDelegate.swift */; };
-		0BA40B2429A7530A002094DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B2329A7530A002094DF /* ViewController.swift */; };
-		0BA40B2729A7530A002094DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA40B2529A7530A002094DF /* Main.storyboard */; };
+		0BA40B2429A7530A002094DF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B2329A7530A002094DF /* StartViewController.swift */; };
 		0BA40B2929A7530B002094DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA40B2829A7530B002094DF /* Assets.xcassets */; };
 		0BA40B2C29A7530B002094DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA40B2A29A7530B002094DF /* LaunchScreen.storyboard */; };
+		0BA40B3729A75756002094DF /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B3629A75756002094DF /* StartView.swift */; };
+		0BA40B3A29A75984002094DF /* ViewDesignerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B3929A75984002094DF /* ViewDesignerServices.swift */; };
+		0BA40B3D29A759AF002094DF /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B3C29A759AF002094DF /* UIButton+.swift */; };
+		0BA40B3F29A75BA0002094DF /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B3E29A75BA0002094DF /* UIColor+.swift */; };
+		0BA40B4229A75DC7002094DF /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B4129A75DC7002094DF /* UIView+.swift */; };
+		0BA40B4429A7646C002094DF /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B4329A7646C002094DF /* UILabel+.swift */; };
+		0BA40B4829A79DAD002094DF /* GuessNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B4729A79DAD002094DF /* GuessNumberView.swift */; };
+		0BA40B4A29A79DCC002094DF /* GuessNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B4929A79DCC002094DF /* GuessNumberViewController.swift */; };
+		0BA40B4C29A8B748002094DF /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B4B29A8B748002094DF /* ValidationService.swift */; };
+		0BA40B4F29A8B878002094DF /* TryOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B4E29A8B878002094DF /* TryOneView.swift */; };
+		0BA40B5129A8B89B002094DF /* TryOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5029A8B89B002094DF /* TryOneViewController.swift */; };
+		0BA40B5429A8F595002094DF /* TryTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5329A8F595002094DF /* TryTwoView.swift */; };
+		0BA40B5629A8F5D8002094DF /* TryTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5529A8F5D8002094DF /* TryTwoViewController.swift */; };
+		0BA40B5829A8F7C8002094DF /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5729A8F7C8002094DF /* UITextField+.swift */; };
+		0BA40B5A29A90721002094DF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5929A90721002094DF /* DataService.swift */; };
+		0BA40B5D29A90D50002094DF /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5C29A90D50002094DF /* EndView.swift */; };
+		0BA40B5F29A90D6F002094DF /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B5E29A90D6F002094DF /* EndViewController.swift */; };
+		0BA40B6129A9EEEB002094DF /* Tries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA40B6029A9EEEB002094DF /* Tries.swift */; };
+		27D8914108F567E21F37BDEF /* Pods_AwesomeGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C002A851974EB136C6FD0E7 /* Pods_AwesomeGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BA40B1C29A7530A002094DF /* AwesomeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA40B1F29A7530A002094DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BA40B2129A7530A002094DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BA40B2329A7530A002094DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BA40B2629A7530A002094DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BA40B2329A7530A002094DF /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		0BA40B2829A7530B002094DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BA40B2B29A7530B002094DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BA40B2D29A7530B002094DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA40B3629A75756002094DF /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		0BA40B3929A75984002094DF /* ViewDesignerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesignerServices.swift; sourceTree = "<group>"; };
+		0BA40B3C29A759AF002094DF /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		0BA40B3E29A75BA0002094DF /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		0BA40B4129A75DC7002094DF /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		0BA40B4329A7646C002094DF /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		0BA40B4729A79DAD002094DF /* GuessNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberView.swift; sourceTree = "<group>"; };
+		0BA40B4929A79DCC002094DF /* GuessNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberViewController.swift; sourceTree = "<group>"; };
+		0BA40B4B29A8B748002094DF /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		0BA40B4E29A8B878002094DF /* TryOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryOneView.swift; sourceTree = "<group>"; };
+		0BA40B5029A8B89B002094DF /* TryOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryOneViewController.swift; sourceTree = "<group>"; };
+		0BA40B5329A8F595002094DF /* TryTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryTwoView.swift; sourceTree = "<group>"; };
+		0BA40B5529A8F5D8002094DF /* TryTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryTwoViewController.swift; sourceTree = "<group>"; };
+		0BA40B5729A8F7C8002094DF /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		0BA40B5929A90721002094DF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		0BA40B5C29A90D50002094DF /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		0BA40B5E29A90D6F002094DF /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		0BA40B6029A9EEEB002094DF /* Tries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tries.swift; sourceTree = "<group>"; };
+		0C002A851974EB136C6FD0E7 /* Pods_AwesomeGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6F244E8CDEA32D989530BD /* Pods-AwesomeGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeGame.release.xcconfig"; path = "Target Support Files/Pods-AwesomeGame/Pods-AwesomeGame.release.xcconfig"; sourceTree = "<group>"; };
+		C82F7282D441D4F98A41548B /* Pods-AwesomeGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeGame.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeGame/Pods-AwesomeGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D8914108F567E21F37BDEF /* Pods_AwesomeGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				0BA40B1E29A7530A002094DF /* AwesomeGame */,
 				0BA40B1D29A7530A002094DF /* Products */,
+				F3F3EB5E7B117C1C9B057EAD /* Pods */,
+				C49AD29FF30E5F8BC7F81ACE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,129 @@
 		0BA40B1E29A7530A002094DF /* AwesomeGame */ = {
 			isa = PBXGroup;
 			children = (
+				0BA40B3329A75396002094DF /* Application */,
+				0BA40B6029A9EEEB002094DF /* Tries.swift */,
+				0BA40B3529A7573C002094DF /* Modules */,
+				0BA40B3829A75974002094DF /* Services */,
+				0BA40B3B29A7598E002094DF /* Extensions */,
+				0BA40B3429A753B3002094DF /* Resources */,
+			);
+			path = AwesomeGame;
+			sourceTree = "<group>";
+		};
+		0BA40B3329A75396002094DF /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				0BA40B1F29A7530A002094DF /* AppDelegate.swift */,
 				0BA40B2129A7530A002094DF /* SceneDelegate.swift */,
-				0BA40B2329A7530A002094DF /* ViewController.swift */,
-				0BA40B2529A7530A002094DF /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0BA40B3429A753B3002094DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0BA40B2829A7530B002094DF /* Assets.xcassets */,
 				0BA40B2A29A7530B002094DF /* LaunchScreen.storyboard */,
 				0BA40B2D29A7530B002094DF /* Info.plist */,
 			);
-			path = AwesomeGame;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BA40B3529A7573C002094DF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B5B29A90D38002094DF /* EndModule */,
+				0BA40B5229A8E7C5002094DF /* TryTwoModule */,
+				0BA40B4D29A8B81F002094DF /* TryOneModule */,
+				0BA40B4629A79D27002094DF /* GuessNumberModule */,
+				0BA40B4529A79D0F002094DF /* StartModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0BA40B3829A75974002094DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B3929A75984002094DF /* ViewDesignerServices.swift */,
+				0BA40B4B29A8B748002094DF /* ValidationService.swift */,
+				0BA40B5929A90721002094DF /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0BA40B3B29A7598E002094DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B3C29A759AF002094DF /* UIButton+.swift */,
+				0BA40B3E29A75BA0002094DF /* UIColor+.swift */,
+				0BA40B4329A7646C002094DF /* UILabel+.swift */,
+				0BA40B5729A8F7C8002094DF /* UITextField+.swift */,
+				0BA40B4129A75DC7002094DF /* UIView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0BA40B4529A79D0F002094DF /* StartModule */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B3629A75756002094DF /* StartView.swift */,
+				0BA40B2329A7530A002094DF /* StartViewController.swift */,
+			);
+			path = StartModule;
+			sourceTree = "<group>";
+		};
+		0BA40B4629A79D27002094DF /* GuessNumberModule */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B4729A79DAD002094DF /* GuessNumberView.swift */,
+				0BA40B4929A79DCC002094DF /* GuessNumberViewController.swift */,
+			);
+			path = GuessNumberModule;
+			sourceTree = "<group>";
+		};
+		0BA40B4D29A8B81F002094DF /* TryOneModule */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B4E29A8B878002094DF /* TryOneView.swift */,
+				0BA40B5029A8B89B002094DF /* TryOneViewController.swift */,
+			);
+			path = TryOneModule;
+			sourceTree = "<group>";
+		};
+		0BA40B5229A8E7C5002094DF /* TryTwoModule */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B5329A8F595002094DF /* TryTwoView.swift */,
+				0BA40B5529A8F5D8002094DF /* TryTwoViewController.swift */,
+			);
+			path = TryTwoModule;
+			sourceTree = "<group>";
+		};
+		0BA40B5B29A90D38002094DF /* EndModule */ = {
+			isa = PBXGroup;
+			children = (
+				0BA40B5C29A90D50002094DF /* EndView.swift */,
+				0BA40B5E29A90D6F002094DF /* EndViewController.swift */,
+			);
+			path = EndModule;
+			sourceTree = "<group>";
+		};
+		C49AD29FF30E5F8BC7F81ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C002A851974EB136C6FD0E7 /* Pods_AwesomeGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F3EB5E7B117C1C9B057EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C82F7282D441D4F98A41548B /* Pods-AwesomeGame.debug.xcconfig */,
+				1D6F244E8CDEA32D989530BD /* Pods-AwesomeGame.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BA40B3029A7530B002094DF /* Build configuration list for PBXNativeTarget "AwesomeGame" */;
 			buildPhases = (
+				5DBF78A9D2E8445E5D5A2EF9 /* [CP] Check Pods Manifest.lock */,
 				0BA40B1829A7530A002094DF /* Sources */,
 				0BA40B1929A7530A002094DF /* Frameworks */,
 				0BA40B1A29A7530A002094DF /* Resources */,
+				00E4B1BD8FAC6F92861BE1E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +284,85 @@
 			files = (
 				0BA40B2C29A7530B002094DF /* LaunchScreen.storyboard in Resources */,
 				0BA40B2929A7530B002094DF /* Assets.xcassets in Resources */,
-				0BA40B2729A7530A002094DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E4B1BD8FAC6F92861BE1E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeGame/Pods-AwesomeGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeGame/Pods-AwesomeGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeGame/Pods-AwesomeGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBF78A9D2E8445E5D5A2EF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BA40B1829A7530A002094DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA40B2429A7530A002094DF /* ViewController.swift in Sources */,
+				0BA40B4429A7646C002094DF /* UILabel+.swift in Sources */,
+				0BA40B5429A8F595002094DF /* TryTwoView.swift in Sources */,
+				0BA40B4C29A8B748002094DF /* ValidationService.swift in Sources */,
+				0BA40B2429A7530A002094DF /* StartViewController.swift in Sources */,
+				0BA40B3D29A759AF002094DF /* UIButton+.swift in Sources */,
+				0BA40B3A29A75984002094DF /* ViewDesignerServices.swift in Sources */,
+				0BA40B5829A8F7C8002094DF /* UITextField+.swift in Sources */,
+				0BA40B5A29A90721002094DF /* DataService.swift in Sources */,
 				0BA40B2029A7530A002094DF /* AppDelegate.swift in Sources */,
+				0BA40B4F29A8B878002094DF /* TryOneView.swift in Sources */,
+				0BA40B5129A8B89B002094DF /* TryOneViewController.swift in Sources */,
+				0BA40B4229A75DC7002094DF /* UIView+.swift in Sources */,
+				0BA40B5D29A90D50002094DF /* EndView.swift in Sources */,
+				0BA40B4829A79DAD002094DF /* GuessNumberView.swift in Sources */,
 				0BA40B2229A7530A002094DF /* SceneDelegate.swift in Sources */,
+				0BA40B3729A75756002094DF /* StartView.swift in Sources */,
+				0BA40B5F29A90D6F002094DF /* EndViewController.swift in Sources */,
+				0BA40B5629A8F5D8002094DF /* TryTwoViewController.swift in Sources */,
+				0BA40B4A29A79DCC002094DF /* GuessNumberViewController.swift in Sources */,
+				0BA40B6129A9EEEB002094DF /* Tries.swift in Sources */,
+				0BA40B3F29A75BA0002094DF /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0BA40B2529A7530A002094DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BA40B2629A7530A002094DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0BA40B2A29A7530B002094DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +490,17 @@
 		};
 		0BA40B3129A7530B002094DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82F7282D441D4F98A41548B /* Pods-AwesomeGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AwesomeGame/Info.plist;
+				INFOPLIST_FILE = AwesomeGame/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +518,17 @@
 		};
 		0BA40B3229A7530B002094DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6F244E8CDEA32D989530BD /* Pods-AwesomeGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AwesomeGame/Info.plist;
+				INFOPLIST_FILE = AwesomeGame/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

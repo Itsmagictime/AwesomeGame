@@ -1,0 +1,6 @@
+framework module Pods_AwesomeGame {
+  umbrella header "Pods-AwesomeGame-umbrella.h"
+
+  export *
+  module * { export * }
+}
